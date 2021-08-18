@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #21222d;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7rem;
+}
+
+h1 {
+  margin-bottom: 2rem;
+  color: #efca08;
+}
+
+#add {
+  padding: 1rem;
+  border: 1px solid #efca08;
+  margin-right: 2rem;
+  width: 260px;
+  outline: none;
+  color: #efca08;
+  background-color: #21222d;
+  border-radius: 3px;
+}
+
+#btn {
+  padding: 0.6rem;
+  width: 60px;
+  background-color: #efca08;
+  color: #21222d;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.element-list {
+  margin-top: 2rem;
+}
+
+.element-list ul {
+  list-style: none;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.element-list ul li {
+  margin: 0.5rem;
+  background: #efca08;
+  padding: 0.7rem;
+  border-radius: 3px;
+  color: #21222d;
+  width: 370px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.done,
+.done::after {
+  text-decoration: line-through;
+  content: " you done \2714";
+  color: red;
+}
