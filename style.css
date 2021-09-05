@@ -18,16 +18,16 @@ body {
 
 h1 {
   margin-bottom: 2rem;
-  color: #efca08;
+  color: #6e44ff;
 }
 
 #add {
   padding: 1rem;
-  border: 1px solid #efca08;
+  border: 1px solid #6e44ff;
   margin-right: 2rem;
   width: 260px;
   outline: none;
-  color: #efca08;
+  color: #6e44ff;
   background-color: #21222d;
   border-radius: 3px;
 }
@@ -35,7 +35,7 @@ h1 {
 #btn {
   padding: 0.6rem;
   width: 60px;
-  background-color: #efca08;
+  background-color: #6e44ff;
   color: #21222d;
   border: none;
   border-radius: 3px;
@@ -58,7 +58,7 @@ h1 {
 
 .element-list ul li {
   margin: 0.5rem;
-  background: #efca08;
+  background: #6e44ff;
   padding: 0.7rem;
   border-radius: 3px;
   color: #21222d;
