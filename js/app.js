@@ -20,5 +20,3 @@ list.addEventListener("click", (e) => {
     e.target.classList.toggle("done");
   }
 });
-
-window.navigator.vibrate(1000);
