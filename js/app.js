@@ -21,4 +21,4 @@ list.addEventListener("click", (e) => {
   }
 });
 
-window.navigator.vibrate(10000);
+window.navigator.vibrate(1000);
