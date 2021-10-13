@@ -1,7 +1,7 @@
-var input = document.getElementById("add");
-var btn = document.getElementById("btn");
-var list = document.getElementById("list");
-var el = document.getElementsByTagName("li");
+let input = document.getElementById("add");
+let btn = document.getElementById("btn");
+let list = document.getElementById("list");
+let el = document.getElementsByTagName("li");
 
 btn.addEventListener("click", () => {
   var txt = input.value;
